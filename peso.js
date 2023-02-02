@@ -11,25 +11,25 @@ function calcular(){
                         imprimirTela.innerHTML = ` O seu peso na Terra é: ${(valorDigitado.value * 9.81).toFixed(2)}N`
                         break
                   case '2':
-                        imprimirTela.innerHTML = ` O seu peso em Jupiter é: ${(valorDigitado.value * 2.64).toFixed(2)}N`
+                        imprimirTela.innerHTML = ` O seu peso em Jupiter é: ${(valorDigitado.value * 24.79).toFixed(2)}N`
                         break
                   case '3':
-                        imprimirTela.innerHTML = `O seu peso em Mercurio é: ${(valorDigitado.value * 0.37).toFixed(2)}N`
+                        imprimirTela.innerHTML = `O seu peso em Mercurio é: ${(valorDigitado.value * 3.78).toFixed(2)}N`
                         break
                   case '4':
-                        imprimirTela.innerHTML = `O seu peso em saturno é: ${(valorDigitado.value * 1.15).toFixed(2)}N`
+                        imprimirTela.innerHTML = `O seu peso em saturno é: ${(valorDigitado.value * 10.5).toFixed(2)}N`
                         break
                   case '5':
-                        imprimirTela.innerHTML = `O seu peso em Netuno é: ${(valorDigitado.value * 1.18).toFixed(2)}N`
+                        imprimirTela.innerHTML = `O seu peso em Netuno é: ${(valorDigitado.value * 10.8).toFixed(2)}N`
                         break
                   case '6':
-                        imprimirTela.innerHTML = `O seu peso em Marte é: ${(valorDigitado.value * 0.38).toFixed(2)}N`
+                        imprimirTela.innerHTML = `O seu peso em Marte é: ${(valorDigitado.value * 3.72).toFixed(2)}N`
                         break
                   case '7':
-                        imprimirTela.innerHTML = `O seu peso em Venus é: ${(valorDigitado.value * 0.88).toFixed(2)}N`
+                        imprimirTela.innerHTML = `O seu peso em Venus é: ${(valorDigitado.value * 8.60).toFixed(2)}N`
                         break
                   case '8':
-                        imprimirTela.innerHTML = `O seu peso em Urano é: ${(valorDigitado.value * 1.17).toFixed(2)}N`
+                        imprimirTela.innerHTML = `O seu peso em Urano é: ${(valorDigitado.value * 8.50).toFixed(2)}N`
                         break
                   default:
                         imprimirTela.innerHTML = 'Por favor, selecione uma das opções da lista!!'
