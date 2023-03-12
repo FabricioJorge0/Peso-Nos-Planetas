@@ -1,0 +1,90 @@
+:root{
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  height: 70rem;
+  background-image: url('https://recreio.uol.com.br/media/_versions/universo/sistema_solar_capa_widelg.jpg');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  top: 28%;
+  font-size: 1.5rem;
+  min-width: 10rem;
+  text-align: center;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 0.5rem;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+input {
+  margin: 1.2rem;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 1.2rem;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  background: #4353e2;
+  width: 10.25rem;
+  border: 1px solid black;
+}
+
+button:hover{
+  background-color: #2d02ec;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+
+.imprimir{
+  margin-top: 5rem;
+  padding: 4rem;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+  margin: auto;
+  height: 9rem;
+}
+
+.opcoes{
+  padding: 5rem;
+  
+}
+
+.lista{
+  width:10rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.fundo{
+  color: white;
+  margin-bottom: 0%;
+  padding: 0;
+}

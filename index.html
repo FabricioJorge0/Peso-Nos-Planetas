@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Conversor de Peso </title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Calculadora de peso
+    </h1>
+    <p class="page-subtitle">
+      Quanto você pesaria em outros Planetas?
+    </p>
+    <div class="opcoes">
+    <label for="peso">Escolha o Planeta e insira sua massa(Kg)</label><br>
+    <select class="lista" id="list" >
+      <option selected value="0">selecione</option>
+      <option value='1'>Terra</option>
+      <option value='2'>Jupiter</option>
+      <option value='3'>Mercurio</option>
+      <option value='4'>Saturno</option>
+      <option value='5'>Netuno</option>
+      <option value='6'>Marte</option>
+      <option value='7'>Vênus</option>
+      <option value='8'>Urano</option>
+ 
+      <input type="number" id="valor" placeholder="ex: 95.56Kg"><br>
+      <button onclick="calcular()">Calcular</button>
+      <p id="seuPeso" class="imprimir"></p>
+    </div>
+    <div class="fundo">
+      <footer>
+        <p> © Copyright 2022 Fabricio Jorge - Todos os direitos revervados</p>
+      </footer>
+    </div>
+  </div>
+
+
+    <script src="peso.js"></script>
+</body>
+</html>
